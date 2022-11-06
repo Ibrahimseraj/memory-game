@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+body {
+    background-color: #454545;
+    text-align: center;
+}
+
+img {
+    width: 210px;
+    height: 210px;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.result {
+    color: aliceblue;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: xx-large;
+    text-align: left;
+}
+
+.result span {
+    color: slateblue;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+footer {
+    text-align: center;
+    margin-top: 60px;
+}
+
+footer h3 {
+    color: aliceblue;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+footer h3 span {
+    font-family: 'Cormorant Garamond', serif;
+    color: aliceblue;
+}
+
+footer h3 span:hover {
+    color: palegreen;
+    transition: color 200ms 200ms linear;
+    cursor: pointer;
+}
+
+footer h3 span:active {
+    color: palegreen;
+    transition: color 200ms 200ms linear;
+    cursor: pointer;
+}
+
+footer h3 a {
+    text-decoration: none;
+}
+
+@media (max-width: 550px) {
+    img {
+        width: 130px;
+        height: 130px;
+        margin: 20px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+}

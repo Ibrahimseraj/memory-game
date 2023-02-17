@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
 
 body {
-    background-color: #454545;
+    background-image: url('./imgs/background.jpg');
+    background-size: contain;
     text-align: center;
 }
 
@@ -15,7 +18,7 @@ img {
 }
 
 .result {
-    color: aliceblue;
+    color: blue;
     font-family: 'Cormorant Garamond', serif;
     font-size: xx-large;
     text-align: left;
@@ -32,13 +35,14 @@ footer {
 }
 
 footer h3 {
-    color: aliceblue;
-    font-family: 'Cormorant Garamond', serif;
+    color: red;
+    font-family: 'Playball', cursive;
+    font-size: x-large;
 }
 
 footer h3 span {
-    font-family: 'Cormorant Garamond', serif;
-    color: aliceblue;
+    font-family: 'Playball', cursive;
+    font-size: x-large;
 }
 
 footer h3 span:hover {

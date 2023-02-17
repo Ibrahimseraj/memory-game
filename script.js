@@ -93,8 +93,8 @@ function checkTheFruit() {
 
     if (choosenFruitimgs[0] == choosenFruitimgs[1]) {
         alert('you found match')
-        fruitsImgs[optionOneId].setAttribute('src', 'imgs/green.jpg');
-        fruitsImgs[optionTwoId].setAttribute('src', 'imgs/green.jpg');
+        fruitsImgs[optionOneId].setAttribute('src', 'imgs/done.avif');
+        fruitsImgs[optionTwoId].setAttribute('src', 'imgs/done.avif');
         fruitsImgs[optionOneId].removeEventListener('click', fruitFruits);
         fruitsImgs[optionTwoId].removeEventListener('click', fruitFruits);
         correctFruits.push(choosenFruitimgs);
